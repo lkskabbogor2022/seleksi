@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require("fs");
 const path = "/etc/hostname";
-const port = 2022;
+const port = 80;
 
 const requestListener = function (req, res) {
   if (fs.existsSync(path)) {
